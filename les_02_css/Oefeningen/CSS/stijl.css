@@ -1,0 +1,27 @@
+
+.section{
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #000;
+    border-radius: 10px;
+}
+
+#section1{
+    background-color: #e6a2a2;
+    color: #600;
+    font-family: 'Playfair Display', serif;
+}
+#section2{
+    background-color: #a2c4e6;
+    color: #004080;
+    font-family: 'Martian Mono', monospace;
+}
+#section3{
+    background-color: #a2e6c4;
+    color: #00663d;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: x-large;
+}
