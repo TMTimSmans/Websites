@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 3 Oefening 5</title>
+
+    <style>
+        :root{
+            --blue: #000a1e;
+            --orange: #FA6432;
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14;
+            color: var(--blue);
+        }
+        .imageStyle{
+            width: 400px;
+        }
+        li{
+            margin: 0px;
+            padding: 3px;
+        }
+        .oListStyle{
+            background-color: var(--orange);
+            color: white;
+        }
+        .uListStyle{
+            background-color: var(--blue);
+            color: white;
+            margin: 7px;
+        }
+        .container{
+            padding: 20px;
+            width: 400px;
+        }
+    </style>
+</head>
+<body>
+    <img class="imageStyle" src="/Websites/les_03_text_images_lists/Les 03 - Startbestanden/img/weekplanner.gif" alt="weekplanner" title="Weekplanner">
+    <div class="container">
+        <ol class="oListStyle">
+            <li>maandag</li>
+            <ol>
+                <li>Cisco</li>
+                <li>C#</li>
+                <ul class="uListStyle">
+                    <div class="container2">
+                        <li>Canvas nakijken</li>
+                    </div>
+                </ul>
+            </ol>
+            <li>dinsdag</li>
+            <li>woensdag</li>
+            <ol>
+                <li>Engels</li>
+                <ul class="uListStyle">
+                    <li>Woordenboek</li>
+                    <li>Cursus afhalen</li>
+                </ul>
+                <li>C#</li>
+                <li>Websites</li>
+            </ol>
+            <li>donderdag</li>
+            <li>vrijdag</li>
+        </ol>
+    </div>
+</body>
+</html>
