@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+        table{
+            border: 3px solid black;
+            border-collapse: collapse;
+        }
+        td{
+            border: 1px solid black;
+            height: 50px;
+            margin: 4px;
+            text-align: center;
+        }
+        th{
+            border: 1px solid black;
+            height: 50px;
+            margin: 4px;
+            background-color: lightgray;
+        }
+        .col1{
+            width: 200px;
+        }
+        .col2{
+            width: 100px;
+        }
+        .green{
+            background-color: lightgreen;
+        }
+        .red{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>Aantal koppen koffie per persoon</caption>
+        <col>
+        <col span="2" class="col1">
+        <col span="2" class="col2">
+        <tr>
+            <td rowspan="5"><img src="/Websites/les_04_tables/Les 04 - Startbestanden/koffie.jpg" alt="koffie"></td>
+            <th>Naam</th>
+            <th>Aantal koppen</th>
+            <th>Type</th>
+            <th>Suiker</th>
+        </tr>
+        <tr>
+            <td>Jasper Vervliet</td>
+            <td>10</td>
+            <td>Zo zwart mogelijk</td>
+            <td class="green">Ja</td>
+        </tr>
+    
+        <tr>
+            <td>Maaike van den Bulck</td>
+            <td class="green">15</td>
+            <td>Normaal</td>
+            <td class="red">Nee</td>        
+        </tr>
+        <tr>
+            <td>Nele Beerten</td>
+            <td class="red">0</td>
+            <td>Deca</td>
+            <td class="green">Ja</td>
+        </tr>
+        <tr>
+            <td>Anja Raymaekers</td>
+            <td>6</td>
+            <td>Normaal</td>
+            <td class="green">Ja</td>
+        </tr>
+    </table>
+</body>
+</html>
