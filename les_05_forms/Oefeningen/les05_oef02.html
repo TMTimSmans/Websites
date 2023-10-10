@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 5 Oefening 2</title>
+
+    <style>
+        body{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        form{
+            width: 50%;
+        }
+        input{
+            box-shadow: 5px 5px lightgray;
+            border-radius: 5px;
+            width: 50%;
+            padding: 7px;
+            display: inline-block;
+        }
+        label{
+            padding-bottom: 100px;
+
+        }
+    
+    </style>
+</head>
+<body>
+    <form method="post" action="https://tm-statweb.be/forms.php">
+        <div><label for="voornaam">Voornaam:</label></div>
+        <div><input type="text" name="voornaam" id="voornaam" placeholder="Voornaam"></div>
+
+        <div><label for="famillienaam">Famillienaam:</label></div>
+        <div><input type="text" name="famillienaam" id="famillienaam" placeholder="Famillienaam"></div>
+        
+        <div><label for="gebruikersnaam">Gebruikersnaam:</label></div>
+        <div><input type="email" name="gebruikersnaam" id="gebruikersnaam" placeholder="mail@thomasmore.be"></div>
+
+        <div><label for="nickname">Nickname:</label></div>
+        <div><input type="text" name="nickname" minlength="5" maxlength="15" id="nickname" required></div>
+
+        <div><label for="password">Paswoord:</label></div>
+        <div><input type="password" name="password"  id="password" required></div>
+
+        <div><label for="password2">Herhaal paswoord:</label></div>
+        <div><input type="password" name="password2" id="password2" required></div>
+
+        <div><input type="submit" value="Registreren"></div>
+
+        
+    </form>
+</body>
+</html>
