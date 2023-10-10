@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 6 Oefening 3</title>
+
+    <style>
+        .flex-container{
+            display: flex;
+            padding: 20px;
+
+        }
+        .flex-container2{
+            display: flex;
+            padding: 20px;
+
+        }
+        .flex-container3{
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+
+        }
+        .flex-container4{
+            display: flex;
+            padding: 20px;
+
+        }
+        .flex-container>div {
+            margin: 10px 10px 0px 10px;
+            padding: 30px 260px 230px 270px;
+            font-size: 30px;
+
+        }
+        .flex-container2>div {
+            margin: 0px 10px 10px 10px;
+            padding: 30px 197px 180px 190px;
+            font-size: 30px;
+
+        }
+        .flex-container3>div {
+            z-index: 5;
+            font-size: 30px;
+            
+        }
+        .flex-container4>div {
+            margin: 0px 10px 10px 10px;
+            padding: 30px 430px 165px 430px;
+            font-size: 30px;
+            
+        }
+        #div1{
+            background-color: lightblue;
+        }
+        #div2{
+            background-color: plum;
+        }
+        #div3{
+            background-color: green;
+        }
+        #div4{
+            background-color: yellow;
+        }
+        #div4-1{
+            background-color:cyan;
+        }
+
+        #div4-2{
+            background-color:green;
+        }
+
+        #div4-3{
+            background-color:purple;
+        }
+
+        #div5{
+            background-color: red;
+        }
+        #div6{
+            background-color: purple;
+        }
+        #div7{
+            background-color:greenyellow;
+        }
+        #div8{
+            background-color:darkblue;
+        }
+        #div9{
+            background-color:darkgreen;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+        <div id="div1">Header</div>
+        <div id="div2">Header</div>
+        <div id="div3">Header</div>
+    </div>
+    <div class="flex-container2">
+        <div class="flex-container3" id="div4">
+            <div id="div4-1">Menu 1</div>
+            <div id="div4-2">Menu 2</div>
+            <div id="div4-3">Menu 3</div>
+        </div>
+        <div id="div5">Body</div>
+        <div id="div6">Body</div>
+        <div id="div7">Body</div>
+
+    </div>
+
+    <div class="flex-container4">
+        <div id="div8">Footer</div>
+        <div id="div9">Footer</div>
+    </div>
+</body>
+</html>

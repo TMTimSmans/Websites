@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les 6 Oefening 2</title>
+
+    <style>
+        .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 3fr;
+            grid-template-rows: 0.3fr 1.2fr 0.1fr;
+            grid-template-areas: 
+            "nav nav nav nav"
+            "sidebar main main main"
+            "footer footer footer footer";
+            grid-gap: 0.4rem;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-transform: uppercase;
+            font-size: 12pt;
+            color: white;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        nav {
+            background: blue;
+            grid-area: nav;
+            border-radius: 5px;
+            padding-top: 50px;
+        }
+        #sidebar {
+            background: green;
+            grid-area: sidebar;
+            border-radius: 5px;
+            padding-top: 300px;
+        }
+        main{
+            background: black;
+            grid-area: main;
+            border-radius: 5px;
+            padding-top: 300px;
+        }
+        footer{
+            background: orange;
+            grid-area: footer;
+            border-radius: 5px;
+            padding-top: 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <nav id="nav">Header</nav>
+        <section id="sidebar">Aside</section>
+        <main id="main">Main</main>
+        <footer id="footer">Footer</footer>
+    </div>
+</body>
+</html>
